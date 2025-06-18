@@ -1,3 +1,5 @@
+Follow link to view website: https://hannahcodes.github.io/Hair-Day-Webpage/
+
 Intro: 
 I am currently enrolled in a online course series, Coursera Meta Front End Development. This project was assigned in one of the courses to apply the skills learnt for HTML and CSS so far. 
 
