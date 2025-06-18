@@ -1,9 +1,9 @@
-Follow link to view website: https://hannahcodes.github.io/Hair-Day-Webpage/
+Follow link to view website >>> https://hannahcodes.github.io/Hair-Day-Webpage/
 
 Intro: 
-I am currently enrolled in a online course series, Coursera Meta Front End Development. This project was assigned in one of the courses to apply the skills learnt for HTML and CSS so far. 
+I am currently enrolled in a online course series, Coursera Meta Front End Development. This project was assigned in one of the courses to apply the skills learnt for HTML and CSS so far. I am practicing using scripting languages HTML and CSS. I plan to move onto Javascript after gaining a better understanding of the fundamentals. The goal is to eventually become a User Experience Engineer, combining the principles of UX Design and Front End Development
 
-I am practicing using scripting languages HTML and CSS. I plan to move onto Javascript after gaining a better understanding of the fundamentals. The goal is to eventually become a UX Engineer, combining the principles of UX design and Front End Developing. 
+Task: Create a homepage for a fictional client, Hair Day. 
 
 Client Persona: 
 Hair Day - A professional, boutique hair salon that specialising in cut, colour and styling. Additional services include makeup and nails. Inspiring clients between appointments with makeup and nail tutorials hostead on their website. 
