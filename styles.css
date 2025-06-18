@@ -1,0 +1,150 @@
+/* reset CSS */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* container span entire width of viewport */
+.container-fluid{
+        display: grid;
+        width: 100vw;
+        min-height: 100vh;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas: 'header'
+                             'nav'
+                             'main'
+                             'footer';
+    }
+
+ /* header span entire width of container */
+header{
+    grid-area: header;
+    width: 100%;
+}
+
+/* center logo */
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* set width of logo, set height to match */
+.logo{
+    width: 20%;
+    height: auto;
+}
+
+/* set navigation bar colour to match shadowing in logo */
+nav{
+  background-color: rgb(239, 235, 230);
+  grid-area: nav;
+  width: 100%;
+}
+
+/* main span entire width of container */
+main{
+    grid-area: main;
+    width: 100%;
+}
+
+/* add space between sections in heading */
+.carousel-item{
+    margin-bottom: 1rem;
+}
+
+/* set height of carousel slide */
+.c-item{
+   height: 480px;
+}
+
+/* set height and display of carousel image */
+.c-image{
+   height: 100%;
+   object-fit: cover;
+   filter: brightness(0.9);
+   opacity: 0.9;
+}
+
+/*  set positioning and display of carousel caption*/
+.carousel-caption{
+   color: white;
+   top: 30%;
+   margin-top: 20px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+/* set colour of article items */
+.card{
+   background-color:rgb(239, 235, 230); 
+}
+
+/*  set size and position of article images*/
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+/* set display of article buttons */
+.card-btn{
+   border-color: rgb(206, 98, 69);;
+   color:rgb(206, 98, 69);
+   margin-bottom: 5px;
+   background-color:rgb(239, 235, 230); 
+}
+
+/* set new display when user hovers mouse over section  */
+.card:hover, .card > img:hover{
+   opacity: 0.9;
+   background-color:rgb(206, 98, 69);
+   color: white;
+}
+
+/* set new display when user hovers mouse over button */
+.card-btn:hover{
+   text-decoration: underline;
+   background-color: white;
+}
+
+/* set footer size and display */
+footer{
+    background-color:rgb(206, 98, 69);
+    color: white;
+    grid-area: footer;
+    width: 100%;
+    display: inline-flex;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'col1 col2';
+}
+
+/* set paddings for footer sections */
+footer > div{
+   padding: 10px;
+}
+
+/* set footer logo size */
+.footer-logo{
+   width: 50%;
+}
+
+/* set copyright footer position */
+footer #copyright{
+   text-align: end;
+}
+
+/* set responsive design */
+@media all and (max-width: 480px){
+     .container{
+            min-block-size: 100dvh;
+        }
+
+   /* footer columns stack for smaller screens */
+   .footer{
+        display: block;
+
+   }
+
+}
